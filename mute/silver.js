@@ -76,82 +76,117 @@ function arrayBufferToStr(buffer) {
     return new TextDecoder().decode(buffer);
 }
 
+// Helper: Derive unique key per message using HKDF + random salt
+async function deriveMessageKey(sharedKey, salt) {
+    const baseKey = await crypto.subtle.importKey(
+        'raw',
+        Uint8Array.from(atob(sharedKey), c => c.charCodeAt(0)),
+        { name: 'HKDF' },
+        false,
+        ['deriveKey']
+    );
+
+    return crypto.subtle.deriveKey(
+        {
+            name: 'HKDF',
+            hash: 'SHA-256',
+            salt: salt,
+            info: new TextEncoder().encode('MUTE-per-message-key') // Domain separation
+        },
+        baseKey,
+        { name: 'AES-GCM', length: 256 },
+        false,
+        ['encrypt', 'decrypt']
+    );
+}
+
 async function encryptMessage(text) {
     try {
-        const sharedKey = await keyManager.getCurrentKey(); // Return the current key
-        console.log('Encrypting with key:', sharedKey);
-        const keyBytes = Uint8Array.from(atob(sharedKey), c => c.charCodeAt(0));
-        const derivedKey = await crypto.subtle.importKey(
-            'raw', keyBytes, { name: 'AES-GCM', length: 256 }, false, ['encrypt']
-        );
+        const sharedKey = await keyManager.getCurrentKey(); // Your existing shared key
+
+        // Random 16-byte salt per message
+        const salt = crypto.getRandomValues(new Uint8Array(16));
+
+        // Derive unique AES key for this message only
+        const messageKey = await deriveMessageKey(sharedKey, salt);
+
         const iv = crypto.getRandomValues(new Uint8Array(12));
         const displayName = sessionStorage.getItem('displayName') || 'Anonymous';
         const timestamp = Math.floor(Date.now() / 1000);
         const payload = JSON.stringify({ name: displayName, message: text, timestamp });
+
         const encrypted = await crypto.subtle.encrypt(
-            { name: 'AES-GCM', iv }, derivedKey, new TextEncoder().encode(payload)
+            { name: 'AES-GCM', iv },
+            messageKey,
+            new TextEncoder().encode(payload)
         );
-        const ivBase64 = btoa(String.fromCharCode(...iv));
-        const encryptedBase64 = btoa(String.fromCharCode(...new Uint8Array(encrypted)));
-        return `${ivBase64}:${encryptedBase64}`; // Simplified format, no salt
+
+        // Output format: base64(salt + iv + ciphertext)
+        const combined = new Uint8Array(salt.length + iv.length + encrypted.byteLength);
+        combined.set(salt, 0);
+        combined.set(iv, salt.length);
+        combined.set(new Uint8Array(encrypted), salt.length + iv.length);
+
+        return btoa(String.fromCharCode(...combined));
     } catch (error) {
-        console.error("Encryption error:", error);
+        console.error("Encryption failed:", error);
         throw error;
     }
 }
 
 async function decryptMessage(encryptedStr) {
     try {
-        const [ivBase64, encryptedBase64] = encryptedStr.split(':');
-        if (!ivBase64 || !encryptedBase64) {
-            console.warn("Invalid encrypted message format:", encryptedStr);
-            return "[Failed to decrypt]";
-        }
-        const iv = Uint8Array.from(atob(ivBase64), c => c.charCodeAt(0));
-        const encrypted = Uint8Array.from(atob(encryptedBase64), c => c.charCodeAt(0));
-        let allKeys = await keyManager.get();
+        // Split the combined data: salt(16) + iv(12) + ciphertext
+        const combined = Uint8Array.from(atob(encryptedStr), c => c.charCodeAt(0));
+        if (combined.length < 28) throw new Error("Invalid encrypted data");
+
+        const salt = combined.slice(0, 16);
+        const iv = combined.slice(16, 28);
+        const ciphertext = combined.slice(28);
+
+        let allKeys = await keyManager.get(); // Your existing array of possible keys
+
         for (const sharedKey of allKeys) {
             try {
-                console.log("Attempting decryption with key:", sharedKey);
-                const keyBytes = Uint8Array.from(atob(sharedKey), c => c.charCodeAt(0));
-                const derivedKey = await crypto.subtle.importKey(
-                    'raw', keyBytes, { name: 'AES-GCM', length: 256 }, false, ['decrypt']
-                );
+                const messageKey = await deriveMessageKey(sharedKey, salt);
+
                 const decrypted = await crypto.subtle.decrypt(
-                    { name: 'AES-GCM', iv }, derivedKey, encrypted
+                    { name: 'AES-GCM', iv },
+                    messageKey,
+                    ciphertext
                 );
-                const payload = JSON.parse(arrayBufferToStr(decrypted));
-                console.log("Decryption successful:", payload);
+
+                const payload = JSON.parse(new TextDecoder().decode(decrypted));
+                console.log("Decrypted:", payload);
                 return { name: payload.name || 'Anonymous', message: payload.message, timestamp: payload.timestamp };
-            } catch (error) {
-                console.warn("Decryption attempt failed with key:", sharedKey, "Error:", error.message);
+            } catch (e) {
+                console.warn("Decryption attempt failed with key:", sharedKey.substring(0, 10) + "...", e.message);
                 continue;
             }
         }
-        console.log("Decryption failed with current keys, forcing key refresh...");
+
+        // Force refresh if all keys failed
+        console.log("All keys failed — forcing refresh...");
         allKeys = await keyManager.forceRefresh();
+        // Retry loop with refreshed keys (same as above)
         for (const sharedKey of allKeys) {
             try {
-                console.log("Retrying decryption with refreshed key:", sharedKey);
-                const keyBytes = Uint8Array.from(atob(sharedKey), c => c.charCodeAt(0));
-                const derivedKey = await crypto.subtle.importKey(
-                    'raw', keyBytes, { name: 'AES-GCM', length: 256 }, false, ['decrypt']
-                );
+                const messageKey = await deriveMessageKey(sharedKey, salt);
                 const decrypted = await crypto.subtle.decrypt(
-                    { name: 'AES-GCM', iv }, derivedKey, encrypted
+                    { name: 'AES-GCM', iv },
+                    messageKey,
+                    ciphertext
                 );
-                const payload = JSON.parse(arrayBufferToStr(decrypted));
-                console.log("Decryption successful after refresh:", payload);
+                const payload = JSON.parse(new TextDecoder().decode(decrypted));
                 return { name: payload.name || 'Anonymous', message: payload.message, timestamp: payload.timestamp };
-            } catch (error) {
-                console.warn("Retry decryption attempt failed with key:", sharedKey, "Error:", error.message);
+            } catch (e) {
                 continue;
             }
         }
-        console.warn("Could not decrypt message with any available key:", encryptedStr);
+
         return "[Failed to decrypt]";
     } catch (error) {
-        console.error("Decryption error:", error, "for:", encryptedStr);
+        console.error("Decryption error:", error);
         return "[Failed to decrypt]";
     }
 }
