@@ -1,6 +1,6 @@
 <p align="center"><b>MUTE V2.+</b></p>
 
-<img width="500" height="500" alt="471151478-96cd0bd4-fca9-4dc6-bbb3-a26a6aeddf3c" src="https://github.com/user-attachments/assets/307df13c-a011-4bf0-a47f-f691867293f7" />
+<p align="center"><img width="500" height="500" alt="471151478-96cd0bd4-fca9-4dc6-bbb3-a26a6aeddf3c" src="https://github.com/user-attachments/assets/307df13c-a011-4bf0-a47f-f691867293f7" /></p>
 
 MUTE – Multi-User Timed Encrypted ChatMUTE is a lightweight, browser-based chat system with strong end-to-end encryption, automatic 5-minute message expiry, and two modes: public ("Silver") and private ("Gold"). It runs on a PHP server and can be self-hosted if desired.Core FeaturesEnd-to-End Encryption: AES-256-GCM with client-side encryption/decryption (Web Crypto API)
 Ephemeral Messages: AES-256-GCM with client-side encryption/decryption (Web Crypto API)
@@ -14,22 +14,7 @@ No Database: Pure file-based storage (JSON + binary files in private/)
 Security Headers: HTTPS enforcement, HSTS, CSP, X-Frame-Options, etc.
 Obfuscation: Optional per-message salt + HKDF derivation for unique ciphertexts (Yet not implemented!)
 
-Architecture Overview
-
-Client (Browser)                  Server (PHP + Files)
-───────────────                   ─────────────────────
-│                                     │
-│  • Input message                    │
-│  • Derive per-message key (HKDF)    │
-│  • Encrypt (AES-256-GCM)            │
-│  • Send encrypted blob ───────────► │ Store in temp_talk_*.json (5-min TTL)
-│                                     │
-│ ◄────────────────────────────────── │ Fetch encrypted blobs (filtered)
-│                                     │
-│  • Decrypt (try all known keys)     │
-│  • Display if valid                 │
-│                                     │
-└─────────────────────────────────────┘
+<img width="713" height="431" alt="2026-01-13 00_42_12-Editing muteV2 -_README md at main · MariPepper_muteV2 - — Mozilla Firefox" src="https://github.com/user-attachments/assets/99ab5f89-c3ed-4c9d-9954-d38c6274e43c" />
 
 Key Componentsprivate/ (never web-accessible)json_key.bin: Rotating 256-bit master key (rotates every 24h)
 session_key.json: Time-window session keys for Silver mode
