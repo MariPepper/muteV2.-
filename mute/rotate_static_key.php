@@ -1,7 +1,7 @@
 <?php
 require_once 'encrypt_json.php'; // Include encryption functions
 
-// Configuração centralizada em array (evita globals)
+// Centralized configuration array (avoids globals)
 $config = [
     'sessionKeyFile'     => '../private/session_key.json',     // Talk Silver session keys
     'saltKeyFile'        => '../private/salt_key_mapping.json', // Talk Gold key mappings
@@ -13,12 +13,12 @@ $config = [
     'lastCheckFile'      => '../private/last_rotation_check.txt',
 ];
 
-// Função de log (recebe o caminho do log como parâmetro)
+// Log function (receives log path as parameter)
 function log_action($message, $logFile) {
     file_put_contents($logFile, date('Y-m-d H:i:s') . " - $message\n", FILE_APPEND | LOCK_EX);
 }
 
-// Função principal de rotação (pode ser chamada diretamente)
+// Main rotation function (can be called directly)
 function performKeyRotation($config) {
     $currentTime = time();
 
@@ -92,6 +92,6 @@ function performKeyRotation($config) {
     }
 }
 
-// Executa a rotação (chamada principal)
+// Execute the rotation (main call)
 performKeyRotation($config);
 ?>
