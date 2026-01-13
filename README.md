@@ -24,7 +24,7 @@ MUTE is a lightweight, browser-based chat system with strong end-to-end encrypti
   - Re-encrypts session/salt files automatically
 - **No Database**: Pure file-based storage (JSON + binary files in `private/`)
 - **Security Headers**: HTTPS enforcement, HSTS, CSP, X-Frame-Options, etc.
-- **Obfuscation**: Optional per-message salt + HKDF derivation for unique ciphertexts *(Yet not implemented!)*
+- **Obfuscation**: Optional per-message salt + HKDF derivation for unique ciphertexts *(HKDF Yet not implemented!)*
 
 <div align="center">
 
@@ -47,7 +47,7 @@ MUTE is a lightweight, browser-based chat system with strong end-to-end encrypti
 ## Security Posture
 
 - **Client-side E2EE** — Server sees only encrypted blobs
-- **Per-message uniqueness** — HKDF + random salt/IV
+- **Per-message uniqueness** — HKDF + random salt/IV *(HKDF Yet not implemented!)*
 - **Forward secrecy** — Mild (per-window + per-message derivation)
 - **Key compromise recovery** — 24h master key rotation + re-encryption
 - **Minimal footprint** — No DB, no external deps beyond OpenSSL
