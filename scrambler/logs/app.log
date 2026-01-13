@@ -1,0 +1,1216 @@
+[2025-08-05 19:45:30] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-05 19:45:30] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-05 19:45:30] File uploaded successfully to Uploads/images.png
+[2025-08-05 19:45:30] Starting metadata scrambling for Uploads/images.png, Type: image/png
+[2025-08-05 19:45:30] Generated metadata: Lat=62.722900, Lon=6.741500, Date=2015:12:02 21:14:44, Author=Anonymous_1bf4f683
+[2025-08-05 19:45:30] Running ExifTool command: exiftool "Uploads/images.png" -EXIF:GPSLatitude=62.722900 -EXIF:GPSLongitude=6.741500 -EXIF:DateTimeOriginal='2015:12:02 21:14:44' -EXIF:CreateDate='2015:12:02 21:14:44' -EXIF:Artist='Anonymous_1bf4f683' -IPTC:By-line='Anonymous_1bf4f683' -XMP:Creator='Anonymous_1bf4f683' -overwrite_original -o "processed/scrambled_images.png"
+[2025-08-05 19:45:30] ExifTool return code: 1, Output: 'exiftool' is not recognized as an internal or external command,
+operable program or batch file.
+[2025-08-05 19:45:30] ExifTool failed for Uploads/images.png: 'exiftool' is not recognized as an internal or external command,
+operable program or batch file.
+[2025-08-05 19:45:30] Attempting PHP GD fallback for Uploads/images.png
+[2025-08-05 19:45:30] No EXIF data found for Uploads/images.png
+[2025-08-05 19:45:30] Metadata scrambling failed for Uploads/images.png
+[2025-08-05 19:57:42] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-05 19:57:42] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-05 19:57:42] File uploaded successfully to Uploads/images.png
+[2025-08-05 19:57:42] MetadataScrambler initialized
+[2025-08-05 19:57:42] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-05 19:57:42] Generated metadata: Lat=26.521500, Lon=139.045400, Date=2019:06:12 06:47:16, Author=Anonymous_840fee17
+[2025-08-05 19:57:42] GD PNG processing succeeded for Uploads/images.png
+[2025-08-05 19:57:42] Serving processed file: processed/scrambled_images.png
+[2025-08-05 19:57:42] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-05 20:09:27] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:09:27] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:09:27] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:09:27] MetadataScrambler initialized
+[2025-08-05 20:09:27] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:09:27] Generated metadata: Lat=-21.343900, Lon=175.656500, Date=2009:09:14 02:56:17, Author=Anonymous_6a7ddde0
+[2025-08-05 20:09:27] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:09:27] EXIF writing not supported in PHP; metadata stripped but not randomized for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:09:27] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:09:27] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:18:14] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:18:14] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:18:14] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:18:14] MetadataScrambler initialized
+[2025-08-05 20:18:14] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:18:14] Generated metadata: Lat=42.345600, Lon=-147.955400, Date=2018:12:23 22:44:37, Author=Anonymous_3f0b0bf6
+[2025-08-05 20:18:14] GD processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg (image/jpeg)
+[2025-08-05 20:18:14] EXIF writing not supported in PHP; metadata stripped but not randomized for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:18:14] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:18:14] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:20:12] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-05 20:20:12] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-05 20:20:12] File uploaded successfully to Uploads/images.png
+[2025-08-05 20:20:12] MetadataScrambler initialized
+[2025-08-05 20:20:12] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-05 20:20:12] Generated metadata: Lat=43.193900, Lon=-80.672900, Date=2006:11:06 16:26:11, Author=Anonymous_6d45da7f
+[2025-08-05 20:20:12] GD processing succeeded for Uploads/images.png (image/png)
+[2025-08-05 20:20:12] Serving processed file: processed/scrambled_images.png
+[2025-08-05 20:20:12] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-05 20:29:59] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:29:59] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:29:59] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:29:59] MetadataScrambler initialized
+[2025-08-05 20:29:59] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:29:59] Generated metadata: Lat=-20.761200, Lon=121.472400, Date=2000:05:23 23:55:13, Author=Anonymous_68005a90
+[2025-08-05 20:30:00] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:30:00] Constructing EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:30:00] EXIF data added successfully for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:30:00] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:30:00] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:36:43] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] MetadataScrambler initialized
+[2025-08-05 20:36:43] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:36:43] Generated metadata: Lat=-49.338300, Lon=78.866500, Date=2020:04:28 20:55:02, Author=Anonymous_447f8a90
+[2025-08-05 20:36:43] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] Constructing EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] EXIF data added successfully for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:36:43] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:38:37] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] MetadataScrambler initialized
+[2025-08-05 20:38:37] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:38:37] Generated metadata: Lat=52.493800, Lon=-140.807800, Date=2022:03:03 02:44:59, Author=Anonymous_e0f404dc
+[2025-08-05 20:38:37] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] Constructing EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] EXIF segment built: DateTimeOriginal=2022:03:03 02:44:59, Artist=Anonymous_e0f404dc
+[2025-08-05 20:38:37] EXIF segment length: 87 bytes
+[2025-08-05 20:38:37] EXIF data added successfully for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:38:37] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:41:30] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] MetadataScrambler initialized
+[2025-08-05 20:41:30] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:41:30] Generated metadata: Lat=-0.609400, Lon=-172.325100, Date=2001:07:09 19:08:53, Author=Anonymous_d5ae462a
+[2025-08-05 20:41:30] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] Constructing EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] EXIF segment built: Artist=Anonymous_d5ae462a, Offset=26, Length=19
+[2025-08-05 20:41:30] EXIF segment length: 55 bytes
+[2025-08-05 20:41:30] EXIF data added successfully for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:41:30] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 20:43:44] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] MetadataScrambler initialized
+[2025-08-05 20:43:44] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 20:43:44] Generated metadata: Lat=81.735500, Lon=-136.430900, Date=2020:04:29 17:54:32, Author=Anonymous_699593f9
+[2025-08-05 20:43:44] GD JPEG processing succeeded for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] Constructing EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] EXIF segment built: DateTimeOriginal=2020:04:29 17:54:32, Artist=Anonymous_699593f9, ArtistOffset=58, ArtistLength=19
+[2025-08-05 20:43:44] EXIF segment length: 87 bytes
+[2025-08-05 20:43:44] EXIF data added successfully for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 20:43:44] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 21:51:10] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 21:51:10] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 21:51:10] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] Cleaning up old file: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 22:00:38] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true}
+[2025-08-05 22:00:38] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 22:00:38] Generated metadata: {"latitude":"59.383600","longitude":"34.409200","date":"2017:01:28 08:26:48","author":"Anonymous_59330f25","camera":"Canon EOS R5","software":"ImageProcessor 7.4"}
+[2025-08-05 22:00:38] Built comprehensive EXIF segment: 297 bytes
+[2025-08-05 22:00:38] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:00:38] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-05 22:13:09] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true}
+[2025-08-05 22:13:09] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-05 22:13:09] Generated metadata: {"latitude":"-25.127000","longitude":"169.240000","date":"2013:03:04 09:45:07","author":"Anonymous_bec5e468","camera":"Sony A7R IV","software":"ImageProcessor 1.2"}
+[2025-08-05 22:13:09] Built comprehensive EXIF segment: 296 bytes
+[2025-08-05 22:13:09] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-05 22:13:09] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 16:13:09] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:13:09] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 16:13:09] Generated metadata: {"latitude":"12.490000","longitude":"60.801900","date":"2024:02:03 02:57:51","author":"Anonymous_5cf2b62c","camera":"Sony A7R IV","software":"ImageProcessor 2.6"}
+[2025-08-07 16:13:09] Built comprehensive EXIF segment: 296 bytes
+[2025-08-07 16:13:09] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:13:09] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 16:17:38] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:17:38] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 16:17:38] Generated metadata: {"latitude":"55.646200","longitude":"73.722700","date":"2003:12:15 03:32:36","author":"Anonymous_d9148c6e","camera":"Panasonic GH5","software":"ImageProcessor 6.4"}
+[2025-08-07 16:17:38] Built comprehensive EXIF segment: 298 bytes
+[2025-08-07 16:17:38] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:17:38] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:23:09] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 16:23:09] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 16:23:09] File uploaded successfully to Uploads/images.png
+[2025-08-07 16:23:09] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:23:09] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 16:23:09] Generated metadata: {"latitude":"-64.724900","longitude":"-167.525500","date":"2007:08:17 20:41:27","author":"Anonymous_8f72b55c","camera":"Canon EOS R5","software":"ImageProcessor 8.0"}
+[2025-08-07 16:23:09] PNG text chunks added to processed/scrambled_images.png
+[2025-08-07 16:23:09] PNG processing completed for Uploads/images.png
+[2025-08-07 16:23:09] Output validation passed for processed/scrambled_images.png
+[2025-08-07 16:23:09] Serving processed file: processed/scrambled_images.png
+[2025-08-07 16:23:09] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-07 16:25:39] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 16:25:39] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:25:39] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 16:25:39] Generated metadata: {"latitude":"22.996500","longitude":"135.450300","date":"2003:07:02 05:03:48","author":"Anonymous_fcba039b","camera":"Sony A7R IV","software":"ImageProcessor 2.3"}
+[2025-08-07 16:25:39] Built comprehensive EXIF segment: 296 bytes
+[2025-08-07 16:25:39] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:25:39] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:44:32] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 16:44:32] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 16:44:32] File uploaded successfully to Uploads/images.png
+[2025-08-07 16:44:32] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:44:32] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 16:44:32] Generated metadata: {"latitude":"68.770300","longitude":"-120.548300","date":"2020:11:19 20:22:06","author":"Anonymous_6123313a","camera":"Panasonic GH5","software":"ImageProcessor 3.8"}
+[2025-08-07 16:44:32] PNG text chunks added to processed/scrambled_images.png
+[2025-08-07 16:44:32] PNG processing completed for Uploads/images.png
+[2025-08-07 16:44:32] Output validation passed for processed/scrambled_images.png
+[2025-08-07 16:44:32] Serving processed file: processed/scrambled_images.png
+[2025-08-07 16:44:32] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-07 16:55:32] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 16:55:32] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:32] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:32] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:55:32] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 16:55:32] Generated metadata: {"latitude":"-76.850700","longitude":"168.190100","date":"2007:04:13 14:54:11","author":"Anonymous_8af71a54","camera":"Samsung Galaxy S23","software":"ImageProcessor 6.3"}
+[2025-08-07 16:55:33] Built comprehensive EXIF segment: 371 bytes
+[2025-08-07 16:55:33] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:33] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:33] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:33] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:55:33] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:42] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 16:58:42] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:42] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:42] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 16:58:42] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 16:58:42] Generated metadata: {"latitude":"10.370000","longitude":"178.261500","date":"2024:03:30 04:54:33","author":"Anonymous_ff4cfcd8","camera":"Canon EOS R5","software":"ImageProcessor 9.2"}
+[2025-08-07 16:58:43] Built comprehensive EXIF segment: 365 bytes
+[2025-08-07 16:58:43] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:43] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:43] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:43] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 16:58:43] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:00:11] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:00:11] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:00:11] Generated metadata: {"latitude":"-10.553000","longitude":"153.929600","date":"2022:09:04 02:47:48","author":"Anonymous_bcabadd5","camera":"iPhone 14 Pro","software":"ImageProcessor 5.3"}
+[2025-08-07 17:00:11] Built comprehensive EXIF segment: 366 bytes
+[2025-08-07 17:00:11] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:00:11] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:06] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:05:06] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:06] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:06] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:05:06] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:05:06] Generated metadata: {"latitude":"49.979900","longitude":"146.679400","date":"2004:08:01 04:10:43","author":"Anonymous_d8032cc6","camera":"OnePlus 11","software":"ImageProcessor 2.8"}
+[2025-08-07 17:05:07] Built comprehensive EXIF segment: 363 bytes
+[2025-08-07 17:05:07] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:07] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:07] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:07] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:05:07] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:13:43] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:13:43] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:13:43] Generated metadata: {"latitude":"69.018700","longitude":"123.036500","date":"2018:10:20 15:59:28","author":"Anonymous_a8d45fee","camera":"Sony A7R IV","software":"ImageProcessor 7.6"}
+[2025-08-07 17:13:43] Built GPS IFD with 252 bytes, offsets: [LatRef=138, Lat=140, LonRef=164, Lon=166, Alt=190, Time=198, Sat=222, Status=225, Mode=227, Date=229]
+[2025-08-07 17:13:43] Invalid EXIF header
+[2025-08-07 17:13:43] Failed to validate EXIF structure
+[2025-08-07 17:13:43] Failed to build EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:13:43] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:27] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:27:27] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:27] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:27] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:27:27] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:27:27] Generated metadata: {"latitude":"80.893800","longitude":"95.215600","date":"2010:12:12 13:59:09","author":"Anonymous_31130d05","camera":"Samsung Galaxy S23","software":"ImageProcessor 7.6"}
+[2025-08-07 17:27:28] Built GPS IFD with 252 bytes, offsets: [LatRef=138, Lat=140, LonRef=164, Lon=166, Alt=190, Time=198, Sat=222, Status=225, Mode=227, Date=229]
+[2025-08-07 17:27:28] Validating EXIF structure, first 10 bytes: ffe101db457869660000
+[2025-08-07 17:27:28] EXIF structure validated successfully
+[2025-08-07 17:27:28] Built comprehensive EXIF segment: 477 bytes
+[2025-08-07 17:27:28] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:28] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:28] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:28] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:27:28] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:43] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:32:43] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:43] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:43] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:32:43] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:32:43] Generated metadata: {"latitude":"38.469300","longitude":"-106.593600","date":"2017:09:26 17:55:27","author":"Anonymous_db473e0e","camera":"Panasonic GH5","software":"ImageProcessor 4.3"}
+[2025-08-07 17:32:44] Removed JPEG comment from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:44] Built GPS IFD with 252 bytes, offsets: [LatRef=138, Lat=140, LonRef=164, Lon=166, Alt=190, Time=198, Sat=222, Status=225, Mode=227, Date=229]
+[2025-08-07 17:32:44] Validating EXIF structure, first 10 bytes: ffe101d6457869660000
+[2025-08-07 17:32:44] EXIF structure validated successfully
+[2025-08-07 17:32:44] Built comprehensive EXIF segment: 472 bytes
+[2025-08-07 17:32:44] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:44] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:44] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:44] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:32:44] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 17:38:34] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 17:38:34] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 17:38:34] Generated metadata: {"latitude":"-57.742300","longitude":"26.886700","date":"2014:04:10 20:03:26","author":"Anonymous_663cd19e","camera":"iPhone 14 Pro","software":"ImageProcessor 6.2"}
+[2025-08-07 17:38:34] Built GPS IFD with 252 bytes, offsets: [LatRef=138, Lat=140, LonRef=164, Lon=166, Alt=190, Time=198, Sat=222, Status=225, Mode=227, Date=229]
+[2025-08-07 17:38:34] Validating EXIF structure, first 10 bytes: ffe101d6457869660000
+[2025-08-07 17:38:34] EXIF structure validated successfully
+[2025-08-07 17:38:34] Built comprehensive EXIF segment: 472 bytes
+[2025-08-07 17:38:34] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] Found COM segment at offset 492, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-07 17:38:34] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 17:38:34] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 18:03:53] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 18:03:53] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 18:03:53] Generated metadata: {"latitude":"39.235896","longitude":"141.456218","date":"2006:09:06 21:23:02","author":"Anonymous_b10ea8bb","camera":"Pentax K-1","software":"ImageProcessor 2.8"}
+[2025-08-07 18:03:53] Built GPS IFD with 238 bytes, offsets: [LatRef=138, Lat=140, LonRef=164, Lon=166, Alt=190, Time=198, Sat=222, Status=225, Mode=227, Date=229]
+[2025-08-07 18:03:53] Built comprehensive EXIF segment: 443 bytes
+[2025-08-07 18:03:53] Validating EXIF structure, first 10 bytes: ffe101b7457869660000
+[2025-08-07 18:03:53] EXIF structure validated successfully
+[2025-08-07 18:03:53] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] No COM segments found in processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:03:53] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:04:01] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 18:04:01] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 18:04:01] File uploaded successfully to Uploads/images.png
+[2025-08-07 18:04:01] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 18:04:01] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 18:04:01] Generated metadata: {"latitude":"-85.322734","longitude":"-25.912285","date":"2007:12:17 05:38:25","author":"Anonymous_0207926e","camera":"Fujifilm X-T4","software":"ImageProcessor 4.7"}
+[2025-08-07 18:04:01] Added PNG tEXt/iTXt chunks to processed/scrambled_images.png
+[2025-08-07 18:04:01] PNG processing completed for Uploads/images.png
+[2025-08-07 18:04:01] Output validation passed for processed/scrambled_images.png
+[2025-08-07 18:04:01] Serving processed file: processed/scrambled_images.png
+[2025-08-07 18:04:01] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-07 18:14:16] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 18:14:16] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 18:14:16] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 18:14:16] Generated metadata: {"latitude":"-89.048300","longitude":"-96.831700","date":"2011:04:18 21:38:03","author":"Anonymous_7eed23eb","camera":"OnePlus 11","software":"ImageProcessor 8.5"}
+[2025-08-07 18:14:16] Built GPS IFD with 240 bytes
+[2025-08-07 18:14:16] Validating EXIF structure, first 10 bytes: ffe101c7457869660000
+[2025-08-07 18:14:16] EXIF structure validated successfully
+[2025-08-07 18:14:16] Built comprehensive EXIF segment: 457 bytes
+[2025-08-07 18:14:16] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] Found COM segment at offset 477, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-07 18:14:16] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:16] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:14:22] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 18:14:22] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 18:14:22] File uploaded successfully to Uploads/images.png
+[2025-08-07 18:14:22] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 18:14:22] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 18:14:22] Generated metadata: {"latitude":"74.228900","longitude":"85.948000","date":"2001:07:22 02:51:46","author":"Anonymous_d532832b","camera":"Fujifilm X-T4","software":"ImageProcessor 2.3"}
+[2025-08-07 18:14:22] Added PNG tEXt/iTXt chunks to processed/scrambled_images.png
+[2025-08-07 18:14:22] PNG processing completed for Uploads/images.png
+[2025-08-07 18:14:22] Output validation passed for processed/scrambled_images.png
+[2025-08-07 18:14:22] Serving processed file: processed/scrambled_images.png
+[2025-08-07 18:14:22] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-07 18:41:09] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 18:41:09] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 18:41:09] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 18:41:09] Generated metadata: {"latitude":"29.338800","longitude":"-90.966300","date":"2003:12:10 08:13:49","author":"Anonymous_2ce843b1","camera":"iPhone 14 Pro","software":"ImageProcessor 5.7"}
+[2025-08-07 18:41:09] Built GPS IFD with 150 bytes
+[2025-08-07 18:41:09] Validating EXIF structure, first 10 bytes: ffe10170457869660000
+[2025-08-07 18:41:09] EXIF structure validated successfully
+[2025-08-07 18:41:09] Built comprehensive EXIF segment: 370 bytes
+[2025-08-07 18:41:09] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] Found COM segment at offset 390, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-07 18:41:09] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 18:41:09] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:08:46] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 19:08:46] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:08:46] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:08:46] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:08:46] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 19:08:46] Generated metadata: {"latitude":"19.245400","longitude":"114.167700","date":"2004:12:13 14:54:51","author":"Anonymous_33f460bc","camera":"Nikon D850","software":"ImageProcessor 9.2"}
+[2025-08-07 19:08:46] Built GPS IFD with 138 bytes, tags: 6
+[2025-08-07 19:08:46] Validating EXIF structure, first 10 bytes: ffe1014d457869660000
+[2025-08-07 19:08:46] Invalid GPS IFD tag count: 13624
+[2025-08-07 19:08:46] Failed to validate EXIF structure
+[2025-08-07 19:08:46] Failed to build EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:08:46] Failed to add EXIF data to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:08:46] Metadata scrambling failed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:09:26] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 19:09:26] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:09:26] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:09:26] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:09:26] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 19:09:26] Generated metadata: {"latitude":"-29.760200","longitude":"129.575600","date":"2023:04:10 18:46:23","author":"Anonymous_e91f52cd","camera":"Google Pixel 7","software":"ImageProcessor 3.4"}
+[2025-08-07 19:09:26] Built GPS IFD with 138 bytes, tags: 6
+[2025-08-07 19:09:26] Validating EXIF structure, first 10 bytes: ffe10151457869660000
+[2025-08-07 19:09:26] Invalid GPS IFD tag count: 8300
+[2025-08-07 19:09:26] Failed to validate EXIF structure
+[2025-08-07 19:09:26] Failed to build EXIF segment for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:09:26] Failed to add EXIF data to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:09:26] Metadata scrambling failed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:24:32] Cleaning up old file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:24:32] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 19:24:32] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:24:32] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:24:32] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:24:32] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 19:24:32] Generated metadata: {"latitude":"-86.188600","longitude":"-130.719700","date":"2011:05:03 05:10:59","author":"Anonymous_558a927e","camera":"Google Pixel 7","software":"ImageProcessor 1.4"}
+[2025-08-07 19:40:26] Cleaning up old file: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:40:26] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 19:40:26] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:40:26] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:40:26] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:40:26] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 19:40:26] Generated metadata: {"date":"2006:08:08 00:29:46","author":"Anonymous_53bf9d7a","camera":"Panasonic GH5","software":"ImageProcessor 9.7","description":"Processed Image","gps":{"latitude":44.1553,"latitude_ref":"South","longitude":101.7133,"longitude_ref":"West","altitude":381,"altitude_ref":"Above Sea Level"}}
+[2025-08-07 19:40:26] Error stripping EXIF from JPEG: 
+[2025-08-07 19:40:26] Metadata scrambling failed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 19:51:49] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:51:49] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 19:51:49] Generated metadata: {"latitude":"45.018400","longitude":"99.973000","date":"2000:01:26 20:45:01","author":"Anonymous_af33a79d","camera":"Samsung Galaxy S23","software":"ImageProcessor 5.1"}
+[2025-08-07 19:51:49] Built GPS IFD with 138 bytes
+[2025-08-07 19:51:49] Validating EXIF structure, first 10 bytes: ffe1015d457869660000
+[2025-08-07 19:51:49] EXIF structure validated successfully
+[2025-08-07 19:51:49] Built comprehensive EXIF segment: 351 bytes
+[2025-08-07 19:51:49] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] Found COM segment at offset 371, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-07 19:51:49] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:51:49] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 19:54:00] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 19:54:00] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 19:54:00] File uploaded successfully to Uploads/images.png
+[2025-08-07 19:54:00] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 19:54:00] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 19:54:00] Generated metadata: {"latitude":"-28.271600","longitude":"-28.722600","date":"2020:09:14 05:35:31","author":"Anonymous_a0e8dadb","camera":"Samsung Galaxy S23","software":"ImageProcessor 9.2"}
+[2025-08-07 19:54:00] Added PNG tEXt/iTXt chunks to processed/scrambled_images.png
+[2025-08-07 19:54:00] PNG processing completed for Uploads/images.png
+[2025-08-07 19:54:00] Output validation passed for processed/scrambled_images.png
+[2025-08-07 19:54:00] Serving processed file: processed/scrambled_images.png
+[2025-08-07 19:54:00] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-07 20:21:43] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-07 20:21:43] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 20:21:43] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-07 20:21:43] Generated metadata: {"latitude":"57.823200","longitude":"-114.373100","date":"2016:12:02 21:18:53","author":"Anonymous_ead8e539","camera":"Panasonic GH5","software":"ImageProcessor 2.4"}
+[2025-08-07 20:21:43] Built GPS IFD with 138 bytes (IFD: 78, Data: 60)
+[2025-08-07 20:21:43] Validating EXIF structure, first 10 bytes: ffe10158457869660000
+[2025-08-07 20:21:43] EXIF structure validated successfully
+[2025-08-07 20:21:43] Built comprehensive EXIF segment: 346 bytes
+[2025-08-07 20:21:43] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] Found COM segment at offset 366, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-07 20:21:43] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] JPEG processing completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:21:43] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-07 20:23:44] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-07 20:23:44] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-07 20:23:44] File uploaded successfully to Uploads/images.png
+[2025-08-07 20:23:44] MetadataScrambler initialized with options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto"}
+[2025-08-07 20:23:44] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-07 20:23:44] Generated metadata: {"latitude":"-81.885700","longitude":"65.166600","date":"2021:01:23 19:36:49","author":"Anonymous_9c0c0b8b","camera":"Canon EOS R5","software":"ImageProcessor 5.7"}
+[2025-08-07 20:23:44] Added PNG tEXt/iTXt chunks to processed/scrambled_images.png
+[2025-08-07 20:23:44] PNG processing completed for Uploads/images.png
+[2025-08-07 20:23:44] Output validation passed for processed/scrambled_images.png
+[2025-08-07 20:23:44] Serving processed file: processed/scrambled_images.png
+[2025-08-07 20:23:44] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-08 04:13:58] Received file upload: d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg, Size: 43275
+[2025-08-08 04:13:58] Sanitized file name: d01c6f91bd2e2175d37c6178853f95c8.jpg, Upload path: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] File uploaded successfully to Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-08 04:13:58] Scrambling metadata for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, Type: image/jpeg
+[2025-08-08 04:13:58] Generated metadata: {"latitude":"73.677500","longitude":"96.969600","date":"2003:05:08 14:21:38","author":"Anonymous_689b4c26","camera":"Canon EOS R5","software":"ImageProcessor 5.5"}
+[2025-08-08 04:13:58] Applied subtle noise for hash obfuscation
+[2025-08-08 04:13:58] Applied minimal compression artifacts (quality: 97)
+[2025-08-08 04:13:58] Built GPS IFD with 138 bytes (IFD: 78, Data: 60)
+[2025-08-08 04:13:58] Validating EXIF structure, first 10 bytes: ffe10157457869660000
+[2025-08-08 04:13:58] EXIF structure validated successfully
+[2025-08-08 04:13:58] Built comprehensive EXIF segment: 345 bytes
+[2025-08-08 04:13:58] Comprehensive EXIF data added to processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] Found COM segment at offset 365, length 61: CREATOR: gd-jpeg v1.0 (using IJG JPEG v90), qualit
+[2025-08-08 04:13:58] Removed 1 COM segment(s) from processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] JPEG processing with hash obfuscation completed for Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] Output validation passed for processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] Serving processed file: processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:13:58] Cleaning up files: Uploads/d01c6f91bd2e2175d37c6178853f95c8.jpg, processed/scrambled_d01c6f91bd2e2175d37c6178853f95c8.jpg
+[2025-08-08 04:15:12] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-08 04:15:12] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-08 04:15:12] File uploaded successfully to Uploads/images.png
+[2025-08-08 04:15:12] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-08 04:15:12] Scrambling metadata for Uploads/images.png, Type: image/png
+[2025-08-08 04:15:12] Generated metadata: {"latitude":"33.319600","longitude":"-162.194200","date":"2005:09:09 07:19:42","author":"Anonymous_7a83e8d7","camera":"Nikon D850","software":"ImageProcessor 1.7"}
+[2025-08-08 04:15:12] Added PNG tEXt/iTXt chunks to processed/scrambled_images.png
+[2025-08-08 04:15:12] PNG processing completed for Uploads/images.png
+[2025-08-08 04:15:12] Output validation passed for processed/scrambled_images.png
+[2025-08-08 04:15:12] Output validation passed for processed/scrambled_images.png
+[2025-08-08 04:15:12] Serving processed file: processed/scrambled_images.png
+[2025-08-08 04:15:12] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 19:58:10] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 19:58:10] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 19:58:10] File uploaded successfully to Uploads/images.png
+[2025-08-10 19:58:10] Serving processed file: processed/scrambled_images.png
+[2025-08-10 19:58:10] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 19:59:40] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 19:59:40] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 19:59:40] File uploaded successfully to Uploads/images.png
+[2025-08-10 19:59:40] Serving processed file: processed/scrambled_images.png
+[2025-08-10 19:59:40] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:03:53] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:03:53] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:03:53] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:03:53] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:03:53] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:06:36] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:06:36] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:06:36] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:06:36] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:06:36] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:07:23] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:07:23] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:07:23] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:07:23] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:07:23] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:09:42] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:09:42] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:09:42] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:09:42] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:09:42] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:11:55] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:11:55] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:11:55] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:11:55] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:11:55] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:12:12] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:12:12] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:12:12] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:12:13] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:12:13] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:13:27] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:13:27] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:13:27] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:13:27] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:13:27] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:14:14] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:14:14] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:14:14] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:14:14] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:14:14] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 20:26:15] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 20:26:15] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 20:26:15] File uploaded successfully to Uploads/images.png
+[2025-08-10 20:26:15] Serving processed file: processed/scrambled_images.png
+[2025-08-10 20:26:15] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 21:09:31] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 21:09:31] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 21:09:31] File uploaded successfully to Uploads/images.png
+[2025-08-10 21:09:32] Serving processed file: processed/scrambled_images.png
+[2025-08-10 21:09:32] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 21:10:57] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 21:10:57] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 21:10:57] File uploaded successfully to Uploads/images.png
+[2025-08-10 21:10:57] Serving processed file: processed/scrambled_images.png
+[2025-08-10 21:10:57] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:32:24] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:32:24] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:32:24] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:32:24] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:32:24] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:33:45] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:33:45] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:33:45] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:33:45] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:33:45] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:34:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:34:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:34:04] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:34:04] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:34:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:38:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:38:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:38:04] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:38:04] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:38:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:38:15] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:38:15] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:38:15] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:38:15] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:38:15] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:39:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:39:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:39:04] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:39:04] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:39:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:41:32] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:41:32] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:41:32] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:41:32] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:41:32] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:47:34] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:47:34] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:47:34] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:47:34] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:47:34] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:47:56] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:47:56] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:47:56] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:47:56] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:47:56] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:48:56] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:48:56] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:48:56] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:48:56] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:48:56] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:51:00] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:51:00] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:51:00] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:51:00] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:51:00] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:53:03] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:53:03] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:53:03] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:53:03] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:53:03] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 22:56:01] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 22:56:01] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 22:56:01] File uploaded successfully to Uploads/images.png
+[2025-08-10 22:56:02] Serving processed file: processed/scrambled_images.png
+[2025-08-10 22:56:02] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 23:50:58] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 23:50:58] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 23:50:58] File uploaded successfully to Uploads/images.png
+[2025-08-10 23:50:58] Serving processed file: processed/scrambled_images.png
+[2025-08-10 23:50:58] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 23:53:39] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 23:53:39] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 23:53:39] File uploaded successfully to Uploads/images.png
+[2025-08-10 23:53:39] Serving processed file: processed/scrambled_images.png
+[2025-08-10 23:53:39] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 23:58:13] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 23:58:13] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 23:58:13] File uploaded successfully to Uploads/images.png
+[2025-08-10 23:58:13] Serving processed file: processed/scrambled_images.png
+[2025-08-10 23:58:13] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-10 23:58:49] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-10 23:58:49] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-10 23:58:49] File uploaded successfully to Uploads/images.png
+[2025-08-10 23:58:49] Serving processed file: processed/scrambled_images.png
+[2025-08-10 23:58:49] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:07:34] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:07:34] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:07:34] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:07:34] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:07:34] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:22:07] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:22:07] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:22:07] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:22:07] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:22:07] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:24:34] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:24:34] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:24:34] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:24:34] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:24:34] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:30:38] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:30:38] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:30:38] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:30:38] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:30:38] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:33:10] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:33:10] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:33:10] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:33:10] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:33:10] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:34:24] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:34:24] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:34:24] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:34:24] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:34:24] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:34:41] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:34:41] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:34:41] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:34:41] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:34:41] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:36:47] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:36:47] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:36:47] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:36:47] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:36:47] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:40:51] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:40:51] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:40:51] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:40:51] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:40:51] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:41:40] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:41:40] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:41:40] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:41:40] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:41:40] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:48:44] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:48:44] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:48:44] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:48:44] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:48:44] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:49:05] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:49:05] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:49:05] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:49:05] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:49:05] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:49:39] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:49:39] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:49:39] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:49:39] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:49:39] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 00:49:55] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 00:49:55] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 00:49:55] File uploaded successfully to Uploads/images.png
+[2025-08-11 00:49:55] Serving processed file: processed/scrambled_images.png
+[2025-08-11 00:49:55] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:02:22] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:02:22] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:02:22] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:02:22] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:02:22] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:02:38] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:02:38] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:02:38] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:02:38] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:02:38] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:06:49] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:06:49] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:06:49] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:06:49] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:06:49] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:10:24] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:10:24] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:10:24] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:10:24] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:10:24] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:19:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:19:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:19:04] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:19:04] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:19:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:19:21] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:19:21] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:19:21] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:19:21] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:19:21] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:25:09] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:25:09] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:25:09] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:25:09] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:25:09] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:28:15] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:28:15] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:28:15] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:28:15] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:28:15] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:28:31] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:28:31] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:28:31] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:28:31] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:28:31] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:30:50] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:30:50] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:30:50] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:30:50] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:30:50] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:31:21] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:31:21] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:31:21] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:31:21] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:31:21] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:31:42] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:31:42] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:31:42] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:31:42] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:31:42] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:49:59] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:49:59] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:49:59] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:49:59] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:49:59] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:50:06] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:50:06] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:50:06] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:50:06] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:50:06] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:50:35] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:50:35] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:50:35] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:50:35] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:50:35] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:52:08] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:52:08] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:52:08] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:52:08] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:52:08] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:52:26] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:52:26] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:52:26] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:52:26] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:52:26] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:53:05] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:53:05] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:53:05] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:53:05] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:53:05] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 01:53:56] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 01:53:56] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 01:53:56] File uploaded successfully to Uploads/images.png
+[2025-08-11 01:53:56] Serving processed file: processed/scrambled_images.png
+[2025-08-11 01:53:56] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:17:25] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:17:25] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:17:25] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:17:25] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:17:25] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:22:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:22:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:22:04] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:22:04] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:22:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:23:14] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:23:14] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:23:14] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:23:14] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:23:14] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:25:01] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:25:01] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:25:01] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:25:01] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:25:01] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:31:50] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:31:50] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:31:50] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:31:50] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:31:50] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:32:29] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:32:29] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:32:29] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:32:29] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:32:29] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:32:48] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:32:48] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:32:48] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:32:48] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:32:48] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:37:20] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:37:20] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:37:20] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:37:20] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:37:20] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:37:35] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:37:35] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:37:35] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:37:35] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:37:35] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:41:01] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:41:01] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:41:01] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:41:01] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:41:01] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:49:05] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:49:05] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:49:05] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:49:05] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:49:05] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:51:24] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:51:24] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:51:24] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:51:24] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:51:24] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:56:32] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:56:32] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:56:32] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:56:32] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:56:32] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:57:40] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:57:40] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:57:40] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:57:40] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:57:40] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:58:03] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:58:03] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:58:03] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:58:03] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:58:03] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:58:44] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:58:44] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:58:44] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:58:44] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:58:44] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 02:59:25] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 02:59:25] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 02:59:25] File uploaded successfully to Uploads/images.png
+[2025-08-11 02:59:25] Serving processed file: processed/scrambled_images.png
+[2025-08-11 02:59:25] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:01:59] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:01:59] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:01:59] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:01:59] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:01:59] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:05:01] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:05:01] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:05:01] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:05:01] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:05:01] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:05:17] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:05:17] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:05:17] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:05:17] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:05:17] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:07:00] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:07:00] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:07:00] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:07:00] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:07:00] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:07:28] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:07:28] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:07:28] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:07:28] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:07:28] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:07:52] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:07:52] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:07:52] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:07:52] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:07:52] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:08:11] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:08:11] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:08:11] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:08:11] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:08:11] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:08:39] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:08:39] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:08:39] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:08:39] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:08:39] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:10:23] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:10:23] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:10:23] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:10:23] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:10:23] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:10:41] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:10:41] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:10:41] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:10:41] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:10:41] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:19:54] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:19:54] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:19:54] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:19:54] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:19:54] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:29:31] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:29:31] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:29:31] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:29:31] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:29:31] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:31:10] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:31:10] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:31:10] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:31:10] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:31:10] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:34:54] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:34:54] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:34:54] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:34:54] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:34:54] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:53:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:53:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:53:04] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:53:04] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:53:04] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:54:13] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:54:13] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:54:13] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:54:13] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:54:13] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 03:54:56] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 03:54:56] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 03:54:56] File uploaded successfully to Uploads/images.png
+[2025-08-11 03:54:56] Serving processed file: processed/scrambled_images.png
+[2025-08-11 03:54:56] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 04:08:50] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:08:50] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 04:08:50] File uploaded successfully to Uploads/images.png
+[2025-08-11 04:08:50] Metadata scrambling succeeded for Uploads/images.png
+[2025-08-11 04:10:17] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:10:17] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 04:10:17] File uploaded successfully to Uploads/images.png
+[2025-08-11 04:10:17] Metadata scrambling succeeded for Uploads/images.png
+[2025-08-11 04:12:04] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:12:04] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 04:12:04] File uploaded successfully to Uploads/images.png
+[2025-08-11 04:12:04] Metadata scrambling succeeded for Uploads/images.png
+[2025-08-11 04:20:33] Cleaning up old file: processed/a3117c1a79f91da50a856f3a8f100f45.token
+[2025-08-11 04:20:33] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:20:33] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 04:20:33] File uploaded successfully to Uploads/images.png
+[2025-08-11 04:20:33] Serving processed file: processed/scrambled_images.png
+[2025-08-11 04:20:33] Cleaning up files: Uploads/images.png, processed/scrambled_images.png
+[2025-08-11 04:23:52] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:23:52] Sanitized file name: images.png, Upload path: Uploads/images.png
+[2025-08-11 04:23:52] File uploaded successfully to Uploads/images.png
+[2025-08-11 04:23:52] Generated token 00bbfc4809dd9b8e70ab0cd574ff0105 for processed/scrambled_images.png
+[2025-08-11 04:24:22] Serving processed file: processed/scrambled_images.png
+[2025-08-11 04:31:12] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:31:12] Using temporary name: ba9a310e5e9d1582.png, Upload path: Uploads/ba9a310e5e9d1582.png
+[2025-08-11 04:31:12] Generated random filename: 3855e9400f96798f.png
+[2025-08-11 04:31:12] File uploaded successfully to Uploads/ba9a310e5e9d1582.png
+[2025-08-11 04:31:13] Generated token 7c4bf2bc488402ece26da860610a9721 for processed/3855e9400f96798f.png
+[2025-08-11 04:34:14] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:34:14] Using temporary name: 7dba89a2f42b5df2.png, Upload path: Uploads/7dba89a2f42b5df2.png
+[2025-08-11 04:34:14] Generated random filename: a4ad84cf1951c9fc.png
+[2025-08-11 04:34:14] File uploaded successfully to Uploads/7dba89a2f42b5df2.png
+[2025-08-11 04:34:14] Generated token fc0955bf8380f3a0729f7c4e47b70491 for processed/a4ad84cf1951c9fc.png
+[2025-08-11 04:39:43] Cleaning up old file: processed/3855e9400f96798f.png
+[2025-08-11 04:39:43] Cleaning up old file: processed/7c4bf2bc488402ece26da860610a9721
+[2025-08-11 04:39:43] Cleaning up old file: processed/a4ad84cf1951c9fc.png
+[2025-08-11 04:39:43] Cleaning up old file: processed/fc0955bf8380f3a0729f7c4e47b70491
+[2025-08-11 04:39:43] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:39:43] Using temporary name: fee84e05f1d35c38.png, Upload path: Uploads/fee84e05f1d35c38.png
+[2025-08-11 04:39:43] Generated random filename: 71797adadc8ce2dc.png
+[2025-08-11 04:39:43] File uploaded successfully to Uploads/fee84e05f1d35c38.png
+[2025-08-11 04:39:43] Generated token 9e7f3b1b44e402fd227ab42ee0cef0a9 for processed/71797adadc8ce2dc.png
+[2025-08-11 04:42:30] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:42:30] Using temporary name: 77562ba30ef50e31.png, Upload path: Uploads/77562ba30ef50e31.png
+[2025-08-11 04:42:30] Generated random filename: e3e09e4d68c884e0.png
+[2025-08-11 04:42:30] File uploaded successfully to Uploads/77562ba30ef50e31.png
+[2025-08-11 04:42:30] Generated token db593cf780adc21baa73e596e60a5e43 for processed/e3e09e4d68c884e0.png
+[2025-08-11 04:43:00] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:43:00] Using temporary name: 5c2aff1a20ca5565.png, Upload path: Uploads/5c2aff1a20ca5565.png
+[2025-08-11 04:43:00] Generated random filename: 6e9166cf06984491.png
+[2025-08-11 04:43:00] File uploaded successfully to Uploads/5c2aff1a20ca5565.png
+[2025-08-11 04:43:00] Generated token efe5c526e749b8333e1e2bb556542ae2 for processed/6e9166cf06984491.png
+[2025-08-11 04:45:46] Cleaning up old file: processed/71797adadc8ce2dc.png
+[2025-08-11 04:45:46] Cleaning up old file: processed/9e7f3b1b44e402fd227ab42ee0cef0a9
+[2025-08-11 04:45:46] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 04:45:46] Using temporary name: 6b0aced7d4472da5.png, Upload path: Uploads/6b0aced7d4472da5.png
+[2025-08-11 04:45:46] Generated random filename: e3c6e05319d1c161.png
+[2025-08-11 04:45:46] File uploaded successfully to Uploads/6b0aced7d4472da5.png
+[2025-08-11 04:45:46] Generated token b497aff231a0518d978d85755e3beef1 for processed/e3c6e05319d1c161.png
+[2025-08-11 05:19:13] Cleaning up old file: processed/1dc8704c9bf1f926de2baed4cdf9028a
+[2025-08-11 05:19:13] Cleaning up old file: processed/4555b9453a343b60.gif
+[2025-08-11 05:19:13] Cleaning up old file: processed/47c089e1fecf5f70.webp
+[2025-08-11 05:19:13] Cleaning up old file: processed/6d6d4845de82304a96d64efed2887b30
+[2025-08-11 05:19:13] Cleaning up old file: processed/8736255a0350c802d83ae2e1ed244b7c
+[2025-08-11 05:19:13] Cleaning up old file: processed/aeedb62163c66c5d.docx
+[2025-08-11 05:19:13] Cleaning up old file: processed/d6a4cb659c3de2fe.pdf
+[2025-08-11 05:19:13] Cleaning up old file: processed/d7842c5d72f071a335e6c6c694fe2c25
+[2025-08-11 05:19:13] Cleaning up old file: processed/fd3bb4121cc02d4b.doc
+[2025-08-11 05:19:13] Received file upload: Trabalho final da UFCD.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document, Size: 4416578
+[2025-08-11 05:19:13] Using temporary name: c6689001f954647e.docx, Upload path: Uploads/c6689001f954647e.docx
+[2025-08-11 05:19:13] Generated random filename: 454b302d7c3194b1.docx
+[2025-08-11 05:19:13] File uploaded successfully to Uploads/c6689001f954647e.docx
+[2025-08-11 05:19:14] Generated token 4db727daee0bc080c5d826936bb56e12 for processed/454b302d7c3194b1.docx
+[2025-08-11 05:31:49] Cleaning up old file: processed/454b302d7c3194b1.docx
+[2025-08-11 05:31:49] Cleaning up old file: processed/4db727daee0bc080c5d826936bb56e12
+[2025-08-11 05:31:49] Received file upload: portugol_tarefa1.doc, Type: application/msword, Size: 34304
+[2025-08-11 05:31:49] Using temporary name: 9e65dc345be64c5c.doc, Upload path: Uploads/9e65dc345be64c5c.doc
+[2025-08-11 05:31:49] Generated random filename: fbe126ef7e5fbed0.doc
+[2025-08-11 05:31:49] File uploaded successfully to Uploads/9e65dc345be64c5c.doc
+[2025-08-11 05:31:49] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:31:49] Generated metadata: {"latitude":"-38.418800","longitude":"-29.367200","date":"2018:10:23 11:44:04","author":"Anonymous_9c631e98","camera":"OnePlus 11","software":"ImageProcessor 6.4"}
+[2025-08-11 05:31:49] Starting scramble for Uploads/9e65dc345be64c5c.doc, Type: application/msword
+[2025-08-11 05:31:49] Generated metadata: {"latitude":"89.143600","longitude":"-91.603600","date":"2009:11:05 17:55:20","author":"Anonymous_54759463","camera":"Google Pixel 7","software":"ImageProcessor 2.5"}
+[2025-08-11 05:31:49] DOC processing completed for Uploads/9e65dc345be64c5c.doc
+[2025-08-11 05:31:49] Generated token 0588effd2f16b23c2d8ea1c67b8ecd31 for processed/fbe126ef7e5fbed0.doc
+[2025-08-11 05:31:58] Received file upload: c5b7bded-e0f0-4f79-86aa-ffd825aba680.webp, Type: image/webp, Size: 19774
+[2025-08-11 05:31:58] Using temporary name: 5e6e8f0f064dd1af.webp, Upload path: Uploads/5e6e8f0f064dd1af.webp
+[2025-08-11 05:31:58] Generated random filename: 305965a8833fcc34.webp
+[2025-08-11 05:31:58] File uploaded successfully to Uploads/5e6e8f0f064dd1af.webp
+[2025-08-11 05:31:58] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:31:58] Generated metadata: {"latitude":"-56.340300","longitude":"-128.904400","date":"2024:02:25 13:42:12","author":"Anonymous_f2537864","camera":"Fujifilm X-T4","software":"ImageProcessor 6.8"}
+[2025-08-11 05:31:58] Starting scramble for Uploads/5e6e8f0f064dd1af.webp, Type: image/webp
+[2025-08-11 05:31:58] Generated metadata: {"latitude":"-82.375000","longitude":"-80.385700","date":"2007:03:11 07:24:18","author":"Anonymous_a0f4bff4","camera":"Panasonic GH5","software":"ImageProcessor 5.4"}
+[2025-08-11 05:31:58] Applied subtle noise for hash obfuscation
+[2025-08-11 05:31:58] Applied minimal compression artifacts (quality: 92)
+[2025-08-11 05:31:58] Added XMP metadata to WebP processed/305965a8833fcc34.webp
+[2025-08-11 05:31:58] WebP processing completed for Uploads/5e6e8f0f064dd1af.webp
+[2025-08-11 05:31:58] Generated token 0b0d0534c0b52a7e67a91e4f79eee2a7 for processed/305965a8833fcc34.webp
+[2025-08-11 05:32:16] Received file upload: Trabalho final da UFCD.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document, Size: 4416578
+[2025-08-11 05:32:16] Using temporary name: ecd668ffb31210af.docx, Upload path: Uploads/ecd668ffb31210af.docx
+[2025-08-11 05:32:16] Generated random filename: 9f64ddf8b4426846.docx
+[2025-08-11 05:32:16] File uploaded successfully to Uploads/ecd668ffb31210af.docx
+[2025-08-11 05:32:16] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:32:16] Generated metadata: {"latitude":"-26.517600","longitude":"62.513900","date":"2006:08:15 13:37:56","author":"Anonymous_11338f5a","camera":"iPhone 14 Pro","software":"ImageProcessor 3.3"}
+[2025-08-11 05:32:16] Starting scramble for Uploads/ecd668ffb31210af.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+[2025-08-11 05:32:16] Generated metadata: {"latitude":"-72.953300","longitude":"-79.531900","date":"2008:10:06 19:55:30","author":"Anonymous_8302348d","camera":"Samsung Galaxy S23","software":"ImageProcessor 5.4"}
+[2025-08-11 05:32:16] Processed DOCX core properties
+[2025-08-11 05:32:16] Processed DOCX app properties
+[2025-08-11 05:32:16] Output validation passed for processed/9f64ddf8b4426846.docx
+[2025-08-11 05:32:16] DOCX processing completed for Uploads/ecd668ffb31210af.docx
+[2025-08-11 05:32:16] Generated token a807528590f5d5d118c6c19f4e419e2c for processed/9f64ddf8b4426846.docx
+[2025-08-11 05:33:05] Received file upload: Rotating_earth_(large).gif, Type: image/gif, Size: 1001718
+[2025-08-11 05:33:05] Using temporary name: 738beb1c6119a44f.gif, Upload path: Uploads/738beb1c6119a44f.gif
+[2025-08-11 05:33:05] Generated random filename: 5d4d0ccf2428deb0.gif
+[2025-08-11 05:33:05] File uploaded successfully to Uploads/738beb1c6119a44f.gif
+[2025-08-11 05:33:05] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:33:05] Generated metadata: {"latitude":"-66.591600","longitude":"135.268100","date":"2017:05:29 22:51:49","author":"Anonymous_3482f3c0","camera":"Sony A7R IV","software":"ImageProcessor 9.8"}
+[2025-08-11 05:33:05] Starting scramble for Uploads/738beb1c6119a44f.gif, Type: image/gif
+[2025-08-11 05:33:05] Generated metadata: {"latitude":"67.050500","longitude":"-149.759000","date":"2012:06:30 11:55:14","author":"Anonymous_4ace8f0e","camera":"Canon EOS R5","software":"ImageProcessor 4.9"}
+[2025-08-11 05:33:05] Added XMP metadata to GIF processed/5d4d0ccf2428deb0.gif
+[2025-08-11 05:33:05] GIF processing completed for Uploads/738beb1c6119a44f.gif
+[2025-08-11 05:33:05] Generated token 2ab1e82c9a6e6f3fb584cb368f7c586b for processed/5d4d0ccf2428deb0.gif
+[2025-08-11 05:33:12] Received file upload: portugol_tarefa2.doc, Type: application/msword, Size: 41472
+[2025-08-11 05:33:12] Using temporary name: 3890fa16f39a7997.doc, Upload path: Uploads/3890fa16f39a7997.doc
+[2025-08-11 05:33:12] Generated random filename: 40b0d250fb610691.doc
+[2025-08-11 05:33:12] File uploaded successfully to Uploads/3890fa16f39a7997.doc
+[2025-08-11 05:33:12] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:33:12] Generated metadata: {"latitude":"-37.853800","longitude":"-32.478000","date":"2014:01:13 06:41:38","author":"Anonymous_2e11392b","camera":"Fujifilm X-T4","software":"ImageProcessor 3.7"}
+[2025-08-11 05:33:12] Starting scramble for Uploads/3890fa16f39a7997.doc, Type: application/msword
+[2025-08-11 05:33:12] Generated metadata: {"latitude":"-35.694000","longitude":"-126.432300","date":"2005:09:01 20:54:19","author":"Anonymous_0e31fa03","camera":"Nikon D850","software":"ImageProcessor 2.3"}
+[2025-08-11 05:33:12] DOC processing completed for Uploads/3890fa16f39a7997.doc
+[2025-08-11 05:33:12] Generated token 239cf635d1448d9396e8d43f8db5f0ed for processed/40b0d250fb610691.doc
+[2025-08-11 05:33:20] Received file upload: Teste_Algoritmo_V01.pdf, Type: application/pdf, Size: 144473
+[2025-08-11 05:33:20] Using temporary name: b393a0e526d592fd.pdf, Upload path: Uploads/b393a0e526d592fd.pdf
+[2025-08-11 05:33:20] Generated random filename: a9ad4d2301f2e68c.pdf
+[2025-08-11 05:33:20] File uploaded successfully to Uploads/b393a0e526d592fd.pdf
+[2025-08-11 05:33:20] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:33:20] Generated metadata: {"latitude":"-71.688400","longitude":"-4.299200","date":"2008:05:21 16:10:55","author":"Anonymous_8630ddb1","camera":"Nikon D850","software":"ImageProcessor 9.8"}
+[2025-08-11 05:33:20] Starting scramble for Uploads/b393a0e526d592fd.pdf, Type: application/pdf
+[2025-08-11 05:33:20] Generated metadata: {"latitude":"16.321400","longitude":"-110.843300","date":"2001:03:10 07:51:46","author":"Anonymous_24b226c1","camera":"Sony A7R IV","software":"ImageProcessor 4.0"}
+[2025-08-11 05:33:20] PDF processing completed for Uploads/b393a0e526d592fd.pdf
+[2025-08-11 05:33:20] Generated token 36e9556726b83e334ca702cab291ffdd for processed/a9ad4d2301f2e68c.pdf
+[2025-08-11 05:33:22] Serving processed file: processed/a9ad4d2301f2e68c.pdf
+[2025-08-11 05:42:42] Cleaning up old file: processed/0588effd2f16b23c2d8ea1c67b8ecd31
+[2025-08-11 05:42:42] Cleaning up old file: processed/0b0d0534c0b52a7e67a91e4f79eee2a7
+[2025-08-11 05:42:42] Cleaning up old file: processed/239cf635d1448d9396e8d43f8db5f0ed
+[2025-08-11 05:42:42] Cleaning up old file: processed/2ab1e82c9a6e6f3fb584cb368f7c586b
+[2025-08-11 05:42:42] Cleaning up old file: processed/305965a8833fcc34.webp
+[2025-08-11 05:42:42] Cleaning up old file: processed/40b0d250fb610691.doc
+[2025-08-11 05:42:42] Cleaning up old file: processed/5d4d0ccf2428deb0.gif
+[2025-08-11 05:42:42] Cleaning up old file: processed/9f64ddf8b4426846.docx
+[2025-08-11 05:42:42] Cleaning up old file: processed/a807528590f5d5d118c6c19f4e419e2c
+[2025-08-11 05:42:42] Cleaning up old file: processed/fbe126ef7e5fbed0.doc
+[2025-08-11 05:42:42] Received file upload: c5b7bded-e0f0-4f79-86aa-ffd825aba680.webp, Type: image/webp, Size: 19774
+[2025-08-11 05:42:42] Using temporary name: f9e9b6dd9fea731f.webp, Upload path: Uploads/f9e9b6dd9fea731f.webp
+[2025-08-11 05:42:42] Generated random filename: 64662619f7969587.webp
+[2025-08-11 05:42:42] File uploaded successfully to Uploads/f9e9b6dd9fea731f.webp
+[2025-08-11 05:42:42] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:42:42] Generated metadata: {"latitude":"-33.680200","longitude":"168.724000","date":"2022:02:01 14:27:15","author":"Anonymous_c8ebd242","camera":"iPhone 14 Pro","software":"ImageProcessor 8.3"}
+[2025-08-11 05:42:42] Starting scramble for Uploads/f9e9b6dd9fea731f.webp, Type: image/webp
+[2025-08-11 05:42:42] Generated metadata: {"latitude":"-52.389100","longitude":"132.004800","date":"2004:04:30 10:50:22","author":"Anonymous_1d265f19","camera":"Canon EOS R5","software":"ImageProcessor 1.0"}
+[2025-08-11 05:42:42] Scrambling with hash obfuscation for Uploads/f9e9b6dd9fea731f.webp, Type: image/webp
+[2025-08-11 05:42:42] Generated metadata: {"latitude":"70.468400","longitude":"148.588500","date":"2009:12:11 11:20:55","author":"Anonymous_1af24708","camera":"Google Pixel 7","software":"ImageProcessor 2.5"}
+[2025-08-11 05:42:42] Applied subtle noise for hash obfuscation
+[2025-08-11 05:42:42] Applied minimal compression artifacts (quality: 96)
+[2025-08-11 05:42:42] Added XMP metadata to WebP processed/64662619f7969587.webp
+[2025-08-11 05:42:42] WebP processing completed for Uploads/f9e9b6dd9fea731f.webp
+[2025-08-11 05:42:42] Output validation passed for processed/64662619f7969587.webp
+[2025-08-11 05:42:42] Output validation passed for processed/64662619f7969587.webp
+[2025-08-11 05:42:42] Generated token 4361879b438791ad19bf75fc80762313 for processed/64662619f7969587.webp
+[2025-08-11 05:42:49] Received file upload: Trabalho final da UFCD.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document, Size: 4416578
+[2025-08-11 05:42:49] Using temporary name: abe1fee44a50d26a.docx, Upload path: Uploads/abe1fee44a50d26a.docx
+[2025-08-11 05:42:49] Generated random filename: 8d91fc6fc71edada.docx
+[2025-08-11 05:42:49] File uploaded successfully to Uploads/abe1fee44a50d26a.docx
+[2025-08-11 05:42:49] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 05:42:49] Generated metadata: {"latitude":"-79.193500","longitude":"171.114900","date":"2005:09:12 04:31:20","author":"Anonymous_237046d0","camera":"Olympus OM-D E-M1 Mark III","software":"ImageProcessor 1.1"}
+[2025-08-11 05:42:49] Starting scramble for Uploads/abe1fee44a50d26a.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+[2025-08-11 05:42:49] Generated metadata: {"latitude":"-30.701300","longitude":"166.494000","date":"2020:01:06 19:55:19","author":"Anonymous_e2357c82","camera":"Google Pixel 7","software":"ImageProcessor 8.3"}
+[2025-08-11 05:42:49] Scrambling with hash obfuscation for Uploads/abe1fee44a50d26a.docx, Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+[2025-08-11 05:42:49] Generated metadata: {"latitude":"8.511500","longitude":"-17.176100","date":"2025:05:10 08:24:59","author":"Anonymous_147eb543","camera":"Samsung Galaxy S23","software":"ImageProcessor 8.4"}
+[2025-08-11 05:42:49] Processed DOCX core properties
+[2025-08-11 05:42:49] Processed DOCX app properties
+[2025-08-11 05:42:50] Output validation passed for processed/8d91fc6fc71edada.docx
+[2025-08-11 05:42:50] DOCX processing completed for Uploads/abe1fee44a50d26a.docx
+[2025-08-11 05:42:50] Output validation passed for processed/8d91fc6fc71edada.docx
+[2025-08-11 05:42:50] Output validation passed for processed/8d91fc6fc71edada.docx
+[2025-08-11 05:42:50] Generated token f9fdfabf6cf8c6f6881e118dc1d41e77 for processed/8d91fc6fc71edada.docx
+[2025-08-11 05:42:51] Serving processed file: processed/8d91fc6fc71edada.docx
+[2025-08-11 06:04:11] Cleaning up old file: processed/4361879b438791ad19bf75fc80762313
+[2025-08-11 06:04:11] Cleaning up old file: processed/64662619f7969587.webp
+[2025-08-11 06:04:11] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 06:04:11] Using temporary name: c0fcf559d9287f28.png, Upload path: Uploads/c0fcf559d9287f28.png
+[2025-08-11 06:04:11] Generated random filename: 43b6e4403b0993fe.png
+[2025-08-11 06:04:11] File uploaded successfully to Uploads/c0fcf559d9287f28.png
+[2025-08-11 06:04:11] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 06:04:11] Generated metadata: {"latitude":"-6.721600","longitude":"-25.073200","date":"2021:01:31 06:37:32","author":"Anonymous_15f177b2","camera":"Sony A7R IV","software":"ImageProcessor 9.8"}
+[2025-08-11 06:04:11] Starting scramble for Uploads/c0fcf559d9287f28.png, Type: image/png
+[2025-08-11 06:04:11] Generated metadata: {"latitude":"69.876900","longitude":"83.431500","date":"2025:02:11 09:52:36","author":"Anonymous_348e1ea5","camera":"Nikon D850","software":"ImageProcessor 6.4"}
+[2025-08-11 06:04:11] Scrambling with hash obfuscation for Uploads/c0fcf559d9287f28.png, Type: image/png
+[2025-08-11 06:04:11] Generated metadata: {"latitude":"-17.977400","longitude":"-47.536400","date":"2019:02:05 22:41:55","author":"Anonymous_34891a74","camera":"Nikon D850","software":"ImageProcessor 1.1"}
+[2025-08-11 06:04:11] Added PNG tEXt/iTXt chunks to processed/43b6e4403b0993fe.png
+[2025-08-11 06:04:11] PNG processing completed for Uploads/c0fcf559d9287f28.png
+[2025-08-11 06:04:11] Output validation passed for processed/43b6e4403b0993fe.png
+[2025-08-11 06:04:11] Output validation passed for processed/43b6e4403b0993fe.png
+[2025-08-11 06:04:11] Generated token ecd2d383b02316692e13cd37ff889395 for processed/43b6e4403b0993fe.png
+[2025-08-11 06:04:59] Serving processed file: processed/43b6e4403b0993fe.png
+[2025-08-11 06:12:23] Received file upload: images.png, Type: image/png, Size: 4746
+[2025-08-11 06:12:23] Using temporary name: 9326bf256b9f3742.png, Upload path: Uploads/9326bf256b9f3742.png
+[2025-08-11 06:12:23] Generated random filename: 1d68e83e9e492265.png
+[2025-08-11 06:12:23] File uploaded successfully to Uploads/9326bf256b9f3742.png
+[2025-08-11 06:12:23] MetadataScrambler initialized with hash obfuscation options: {"strip_only":false,"preserve_quality":true,"jpeg_quality":95,"add_fake_gps":true,"validate_output":true,"scramble_file_timestamps":false,"use_same_timestamp":true,"manipulate_system_time":false,"system_time_method":"auto","obfuscate_hashes":true,"hash_obfuscation_methods":["noise","artifacts"],"noise_intensity":1,"log_hash_changes":false}
+[2025-08-11 06:12:23] Generated metadata: {"latitude":"38.155900","longitude":"164.396700","date":"2016:01:31 09:46:54","author":"Anonymous_b01a371a","camera":"Olympus OM-D E-M1 Mark III","software":"ImageProcessor 9.3"}
+[2025-08-11 06:12:23] Starting scramble for Uploads/9326bf256b9f3742.png, Type: image/png
+[2025-08-11 06:12:23] Generated metadata: {"latitude":"27.183100","longitude":"164.251400","date":"2015:01:22 03:00:28","author":"Anonymous_25339d5e","camera":"Sony A7R IV","software":"ImageProcessor 7.8"}
+[2025-08-11 06:12:23] Scrambling with hash obfuscation for Uploads/9326bf256b9f3742.png, Type: image/png
+[2025-08-11 06:12:23] Generated metadata: {"latitude":"-40.643700","longitude":"30.048200","date":"2018:04:27 00:42:46","author":"Anonymous_8ba1584f","camera":"OnePlus 11","software":"ImageProcessor 9.1"}
+[2025-08-11 06:12:23] Added PNG tEXt/iTXt chunks to processed/1d68e83e9e492265.png
+[2025-08-11 06:12:23] PNG processing completed for Uploads/9326bf256b9f3742.png
+[2025-08-11 06:12:23] Output validation passed for processed/1d68e83e9e492265.png
+[2025-08-11 06:12:23] Output validation passed for processed/1d68e83e9e492265.png
+[2025-08-11 06:12:23] Generated token fd69a8647bca4b85f524d572a4429a83 for processed/1d68e83e9e492265.png
