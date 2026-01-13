@@ -27,7 +27,7 @@ if (!defined('ENCRYPT_JSON_INCLUDED')) {
     
     function encryptJson($data, $file) {
         $json = json_encode($data, JSON_PRETTY_PRINT);
-        $iv = random_bytes(12);
+        $iv = random_bytes(16);
         $key = getStaticKey();
         $encrypted = openssl_encrypt($json, 'AES-256-GCM', $key, OPENSSL_RAW_DATA, $iv, $tag, '', 16);
         if ($encrypted === false) {
@@ -38,12 +38,12 @@ if (!defined('ENCRYPT_JSON_INCLUDED')) {
     
     function decryptJson($file) {
         $data = file_exists($file) ? base64_decode(file_get_contents($file)) : false;
-        if ($data === false || strlen($data) < 28) {
+        if ($data === false || strlen($data) < 32) {
             return [];
         }
-        $iv = substr($data, 0, 12);
-        $tag = substr($data, 12, 16);
-        $ciphertext = substr($data, 28);
+        $iv = substr($data, 0, 16);
+        $tag = substr($data, 16, 16);
+        $ciphertext = substr($data, 32);
         $key = getStaticKey();
         $decrypted = openssl_decrypt($ciphertext, 'AES-256-GCM', $key, OPENSSL_RAW_DATA, $iv, $tag);
         if ($decrypted === false) {
