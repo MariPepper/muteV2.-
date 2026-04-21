@@ -1,4 +1,10 @@
 <?php
+// === SECURITY: Prevent direct browser access ===
+if (!defined('IN_APP') && $_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('HTTP/1.0 403 Forbidden');
+    exit('Direct access not allowed');
+}
+// ===============================================
 if (!defined('ENCRYPT_JSON_INCLUDED')) {
     define('ENCRYPT_JSON_INCLUDED', true);
     
