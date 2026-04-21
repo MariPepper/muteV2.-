@@ -301,20 +301,19 @@ async function downloadFromPeer(peerIdRequested, filename, type) {
 
 // Handle uploader's signaling
 function setupPeerServer() {
-        const peer = new SimplePeer({
-            initiator: true,
-            config: {
-                iceServers: [
-                    { urls: 'stun:stun.l.google.com:19302' },
-                    { urls: 'stun:stun1.l.google.com:19302' },
-                    { urls: 'stun:stun2.l.google.com:19302' },
-                    { urls: 'stun:stun3.l.google.com:19302' },
-                    { urls: 'stun:stun4.l.google.com:19302' },
-                    { urls: 'stun:stun.stunprotocol.org:3478' }
-                ],
-                iceCandidatePoolSize: 10
-            }
-        });
+    const peer = new SimplePeer({
+        config: {
+            iceServers: [
+                { urls: 'stun:stun.l.google.com:19302' },
+                { urls: 'stun:stun1.l.google.com:19302' },
+                { urls: 'stun:stun2.l.google.com:19302' },
+                { urls: 'stun:stun3.l.google.com:19302' },
+                { urls: 'stun:stun4.l.google.com:19302' },
+                { urls: 'stun:stun.stunprotocol.org:3478' }
+            ],
+            iceCandidatePoolSize: 10
+        }
+    });
     peer.on('error', (err) => console.error('WebRTC peer error:', err));
 
     peer.on('signal', async (signalData) => {
