@@ -231,7 +231,20 @@ async function decryptAndDownload(filename, encrypted, type) {
 // P2P download function
 async function downloadFromPeer(peerIdRequested, filename, type) {
     return new Promise((resolve, reject) => {
-        const peer = new SimplePeer({ initiator: true });
+        const peer = new SimplePeer({
+            initiator: true,
+            config: {
+                iceServers: [
+                    { urls: 'stun:stun.l.google.com:19302' },
+                    { urls: 'stun:stun1.l.google.com:19302' },
+                    { urls: 'stun:stun2.l.google.com:19302' },
+                    { urls: 'stun:stun3.l.google.com:19302' },
+                    { urls: 'stun:stun4.l.google.com:19302' },
+                    { urls: 'stun:stun.stunprotocol.org:3478' }
+                ],
+                iceCandidatePoolSize: 10
+            }
+        });
         const timeout = setTimeout(() => {
             peer.destroy();
             reject(new Error('WebRTC connection timed out after 10 seconds'));
@@ -288,7 +301,20 @@ async function downloadFromPeer(peerIdRequested, filename, type) {
 
 // Handle uploader's signaling
 function setupPeerServer() {
-    const peer = new SimplePeer();
+        const peer = new SimplePeer({
+            initiator: true,
+            config: {
+                iceServers: [
+                    { urls: 'stun:stun.l.google.com:19302' },
+                    { urls: 'stun:stun1.l.google.com:19302' },
+                    { urls: 'stun:stun2.l.google.com:19302' },
+                    { urls: 'stun:stun3.l.google.com:19302' },
+                    { urls: 'stun:stun4.l.google.com:19302' },
+                    { urls: 'stun:stun.stunprotocol.org:3478' }
+                ],
+                iceCandidatePoolSize: 10
+            }
+        });
     peer.on('error', (err) => console.error('WebRTC peer error:', err));
 
     peer.on('signal', async (signalData) => {
