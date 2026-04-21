@@ -1,4 +1,10 @@
 <?php
+// === SECURITY: Prevent direct browser access ===
+if (!defined('IN_APP') && $_SERVER['REQUEST_METHOD'] !== 'POST') {
+    header('HTTP/1.0 403 Forbidden');
+    exit('Direct access not allowed');
+}
+// ===============================================
 // Headers for JSON-only response
 header('Content-Type: application/json');
 header('X-Content-Type-Options: nosniff');
