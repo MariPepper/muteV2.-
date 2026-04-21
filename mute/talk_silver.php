@@ -1,4 +1,5 @@
 <?php
+define('IN_APP', true);
 // Generate a random nonce for CSP
 $nonce = base64_encode(random_bytes(16));
 
