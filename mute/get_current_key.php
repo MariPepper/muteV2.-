@@ -16,7 +16,7 @@ $maxKeyAge = 86400; // 24 hours in seconds for key cleanup
 
 // Calculate current time window (5-minute intervals)
 $currentTime = time();
-$timeWindow = floor(($currentTime - $offset) / $windowDuration); // Original comment: // Calculate position based on current 5-minute window
+$timeWindow = (int)floor(($currentTime - $offset) / $windowDuration); // Original comment: // Calculate position based on current 5-minute window
 
 // Load existing keys
 $data = [];
